@@ -1,0 +1,921 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <!--- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--- preload images -->
+    <link rel="preload" as="image" href="https://vq.pe/creator/frontend/theme_11/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="https://vq.pe/creator/frontend/theme_11/images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="https://vq.pe/creator/frontend/theme_11/images/hero-slider-3.jpg">
+    <title>Restaurant Web Design by Vijay</title>
+      <link rel="icon" type="image/x-icon" href="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_travelpictdinner_1484336833.png">
+    <meta name="description" content="Restaurant Web Design by Vijay" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/creator/frontend/global/img/favicon.png">
+
+
+    <!-- EmailJS mail integration -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("37fCuJVtMj4qLBQYb"); // Replace with your Public Key
+        })();
+    </script>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-44GBLHR6NH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-44GBLHR6NH');
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://vq.pe/creator/frontend/global/css/main.css?v=1743149506" rel="stylesheet">
+
+
+    <style>
+        #c_116 {
+            color: #80ff80;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--- #PRELOADER -->
+    <!--- #TOP BAR -->
+
+    <div class="topbar">
+        <div style="color:#e4c590" class="container">
+
+            <address class="topbar-item">
+                <span id="c_115" icon="bi-geo-alt" class="dynamic bi-geo-alt"></span>
+                <span class="span dynamic" id="c_104"> Chennai, Tamil Nadu, India</span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <span id="c_116" icon="be-clock" class="dynamic be-clock"></span>
+                <span class="span dynamic" id="c_105">@Vijay Tamilarasan - Software Engineer</span>
+            </div>
+
+
+            <span id="c_117" icon="bi-telephone" class="dynamic bi-telephone"></span>
+            <a class="span dynamic" id="c_106" href="tel:+917695875930" class="topbar-item link">+917695875930</a>
+
+            <div class="separator"></div>
+            <span id="c_118" icon="bi-envelope" class="dynamic bi-envelope"></span>
+
+            <a class="span dynamic" id="c_107" href="mailto:vijayarasantamil5@gmail.com" class="topbar-item link"><span
+                    class="__cf_email__"
+                    data-cfemail="e68489898d8f8881a694839592879394878892c885898b">vijayarasantamil5@gmail.com</span></a>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <!--- <img src="images/logo_dark.png" alt="Grilli - Home" id="c_114" class="dynamic c_logo"> --->
+                <h2 class="headline-1 section-title dynamic" id="c_19">Vijay</h2>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="/" class="logo">
+                    <!--- <img src="images/logo_dark.png" alt="Grilli - Home" id="c_114" class="dynamic c_logo"> --->
+                    <h2 class="headline-1 section-title dynamic" id="c_19">Vijay</h2>
+                </a>
+
+                <ul style="color:#e4c590" class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+
+                    <address class="body-4 dynamic" id="c_104"> Restaurant St, Delicious City, London 9876, UK
+                    </address>
+
+                    <p class="body-4 navbar-text dynamic" id="c_105">Daily : 12.00 am to 12.59 pm</p>
+                    <p class="body-4 navbar-text dynamic" id="c_106">+917695875930</p>
+                    <p class="body-4 navbar-text dynamic" id="c_107"><a href="mailto:vijayarasantamil5@gmail.com" class="__cf_email__">vijayarasantamil5@gmail.com</a></p>
+                </div>
+
+            </nav>
+
+            <button style="right: 20px; position: absolute;" class="nav-open-btn" aria-label="open menu"
+                data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+            <section class="hero text-center cdis  " aria-label="home" id="s_1">
+
+                <ul class="hero-slider" data-hero-slider>
+
+                    <li class="slider-item active" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="https://vq.pe/creator/frontend/img/510/1710480994-hero-slider-1.webp" width="1880"
+                                height="950" alt="" class="img-cover dynamic" id="c_1">
+                        </div>
+
+                        <p class="label-2 section-subtitle slider-reveal dynamic" id="c_2">Tradational and Hygine</p>
+
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_3"> For the love</h1>
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_5">of delicious food</h1>
+
+                        <p class="body-2 hero-text slider-reveal dynamic" id="c_4"> Come with family and feel the joy of
+                            mouthwatering food </p>
+
+                        <a href="https://wa.me/p/24697191356641549/917695875930" class="btn btn-primary slider-reveal dynamic" id="c_6">View Our Menu</a>
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="https://vq.pe/creator/frontend/img/510/1710481004-hero-slider-2.webp" width="1880"
+                                height="950" alt="" class="img-cover dynamic" id="c_7">
+                        </div>
+
+                        <p class="label-2 section-subtitle slider-reveal dynamic" id="c_8">delightful experience</p>
+
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_9"> Flavors Inspired </h1>
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_10"> by the Seasons </h1>
+
+                        <p class="body-2 hero-text slider-reveal dynamic" id="c_200"> Come with family and feel the joy
+                            of mouthwatering food </p>
+
+                        <a href="https://wa.me/p/24697191356641549/917695875930" class="btn btn-primary slider-reveal dynamic" id="c_11">View Our Menu</a>
+
+                    </li>
+
+                    <li class="slider-item" data-hero-slider-item>
+
+                        <div class="slider-bg">
+                            <img src="https://vq.pe/creator/frontend/img/510/1710480986-hero-slider-3.webp" width="1880"
+                                height="950" alt="" class="img-cover dynamic" id="c_12">
+                        </div>
+
+                        <p class="label-2 section-subtitle slider-reveal dynamic" id="c_13">amazing and delicious</p>
+
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_14"> Where every flavor </h1>
+                        <h1 class="display-1 hero-title slider-reveal dynamic" id="c_15"> tells a story </h1>
+
+                        <p class="body-2 hero-text slider-reveal dynamic" id="c_201"> Come with family and feel the joy
+                            of mouthwatering food </p>
+
+                        <a href="https://wa.me/p/24697191356641549/917695875930" class="btn btn-primary slider-reveal dynamic" id="c_16">View Our Menu</a>
+
+                    </li>
+
+                </ul>
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+
+
+            </section>
+
+
+            <section class="section service bg-black-10 text-center cdis  " aria-label="service" id="s_2">
+                <div class="container">
+
+                    <p class="section-subtitle label-2 dynamic" id="c_18">Flavors For Royalty</p>
+
+                    <h2 class="headline-1 section-title dynamic" id="c_19">We Offer Top Notch</h2>
+
+                    <p class="section-text dynamic" id="c_20"> Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry lorem Ipsum has been the industrys standard dummy text ever. </p>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+
+                                <span class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="https://vq.pe/creator/frontend/img/510/1710481043-service-1.webp"
+                                            width="285" height="336" loading="lazy" alt="Breakfast"
+                                            class="img-cover dynamic" id="c_21">
+                                    </figure>
+                                </span>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#" id="c_22" class="dynamic">Breakfast</a>
+                                    </h3>
+
+                                    <a href="https://wa.me/p/24697191356641549/917695875930" class="btn-text hover-underline label-2 dynamic" id="c_23">View Menu</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <span class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="https://vq.pe/creator/frontend/img/510/1710481049-service-2.webp"
+                                            width="285" height="336" loading="lazy" alt="Appetizers"
+                                            class="img-cover dynamic" id="c_24">
+                                    </figure>
+                                </span>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#" id="c_25" class="dynamic">Appetizers</a>
+                                    </h3>
+
+                                    <a href="https://wa.me/p/24697191356641549/917695875930" class="btn-text hover-underline label-2 dynamic" id="c_26">View Menu</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <span class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="https://vq.pe/creator/frontend/img/510/1710481057-service-3.webp"
+                                            width="285" height="336" loading="lazy" alt="Drinks"
+                                            class="img-cover dynamic" id="c_27">
+                                    </figure>
+                                </span>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#" id="c_28" class="dynamic">Drinks</a>
+                                    </h3>
+
+                                    <a href="https://wa.me/p/24697191356641549/917695875930" class="btn-text hover-underline label-2 dynamic" id="c_29">View Menu</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </section>
+
+
+            <section class="section about text-center cdis  " aria-labelledby="about-label" id="s_3">
+                <div class="container">
+
+                    <div class="about-content">
+
+                        <p class="label-2 section-subtitle dynamic" id="c_30">Our Story</p>
+
+                        <h2 class="headline-1 section-title dynamic" id="c_31">Every Fla vor Tells a Story</h2>
+
+                        <p class="section-text dynamic" id="c_32"> Lorem Ipsum is simply dummy text of the printingand
+                            typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            It has survived not only five centuries, but also the leap into. </p>
+
+                        <div class="contact-label dynamic" id="c_33">Book Through Call</div>
+
+                        <a href="tel:+917695875930" class="body-1 contact-number hover-underline dynamic"
+                            id="c_34">917695875930</a>
+
+                    </div>
+
+                    <figure class="about-banner">
+
+                        <img src="https://vq.pe/creator/frontend/img/510/1710481066-about-banner.webp" width="570"
+                            height="570" loading="lazy" alt="about banner" class="w-100 dynamic" data-parallax-item=""
+                            data-parallax-speed="1" id="c_35">
+
+                        <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                            <img src="https://vq.pe/creator/frontend/img/510/1710481076-about-abs-image.webp"
+                                width="285" height="285" loading="lazy" alt="" class="w-100 dynamic" id="c_36">
+                        </div>
+
+                        <div class="abs-img abs-img-2 has-before">
+                            <img src="https://vq.pe/creator/frontend/theme_11/images/badge-2.png" width="133"
+                                height="134" loading="lazy" alt="" id="c_37" class="dynamic">
+                        </div>
+
+                    </figure>
+
+
+                </div>
+            </section>
+
+
+            <section class="special-dish text-center cdis  " aria-labelledby="dish-label" id="s_4">
+
+                <div class="special-dish-banner">
+                    <img src="https://vq.pe/creator/frontend/img/510/1710481087-special-dish-banner.webp" width="940"
+                        height="900" loading="lazy" alt="special dish" class="img-cover dynamic" id="c_39">
+                </div>
+
+                <div class="special-dish-content bg-black-10">
+                    <div class="container">
+
+                        <img src="https://vq.pe/creator/frontend/theme_11/images/badge-1.png" width="28" height="41"
+                            loading="lazy" alt="badge" class="abs-img dynamic" id="c_40">
+
+                        <p class="section-subtitle label-2 dynamic" id="c_41">Special Dish</p>
+
+                        <h2 class="headline-1 section-title dynamic" id="c_42">Lobster Tortellini</h2>
+
+                        <p class="section-text dynamic" id="c_43"> Lorem Ipsum is simply dummy text of the printingand
+                            typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the
+                            when an unknown printer took a galley of type. </p>
+
+                        <div class="wrapper">
+                            <span class="span body-1 dynamic" id="c_44">$20.00</span>
+                        </div>
+
+                        <a href="https://wa.me/p/24697191356641549/917695875930" class="btn btn-primary dynamic" id="c_45">View All Menu</a>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="section menu cdis  " aria-label="menu-label" id="s_5">
+                <div class="container">
+
+                    <p class="section-subtitle text-center label-2 dynamic" id="c_46">Special Selection</p>
+
+                    <h2 class="headline-1 section-title text-center dynamic" id="c_47">Delicious Menu</h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481094-menu-1.png" width="100"
+                                        height="100" loading="lazy" alt="Greek Salad" style="height: 100%;"
+                                        class="dynamic" id="c_48">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_49">Greek Salad</a>
+                                        </h3>
+
+                                        <span class="span title-2 dynamic" id="c_51">$25.50</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_52"> Tomatoes, green bell pepper, sliced
+                                        cucumber onion, olives, and feta cheese. </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481123-menu-2.png" width="100"
+                                        height="100" loading="lazy" alt="Lasagne" style="height: 100%;" class="dynamic"
+                                        id="c_53">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_54">Lasagne</a>
+                                        </h3>
+
+                                        <span class="span title-2 dynamic" id="c_55">$40.00</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_56"> Vegetables, cheeses, ground meats,
+                                        tomato sauce, seasonings and spices </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481105-menu-3.png" width="100"
+                                        height="100" loading="lazy" alt="Butternut Pumpkin" style="height: 100%;"
+                                        class="dynamic" id="c_57">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_58">Butternut Pumpkin</a>
+                                        </h3>
+
+                                        <span class="span title-2 dynamic" id="c_59">$10.00</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_60"> Typesetting industry lorem Lorem
+                                        Ipsum is simply dummy text of the priand. </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481132-menu-4.png" width="100"
+                                        height="100" loading="lazy" alt="Tokusen Wagyu" style="height: 100%;"
+                                        class="dynamic" id="c_61">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_62">Tokusen Wagyu</a>
+                                        </h3>
+
+
+                                        <span class="span title-2 dynamic" id="c_64">$39.00</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_65"> Vegetables, cheeses, ground meats,
+                                        tomato sauce, seasonings and spices. </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481114-menu-5.png" width="100"
+                                        height="100" loading="lazy" alt="Olivas Rellenas" style="height: 100%;"
+                                        class="dynamic" id="c_66">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_67">Olivas Rellenas</a>
+                                        </h3>
+
+                                        <span class="span title-2 dynamic" id="c_68">$25.00</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_69"> Avocados with crab meat, red onion,
+                                        crab salad stuffed red bell pepper and green bell pepper. </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481139-menu-6.png" width="100"
+                                        height="100" loading="lazy" alt="Opu Fish" style="height: 100%;" class="dynamic"
+                                        id="c_70">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title dynamic" id="c_71">Opu Fish</a>
+                                        </h3>
+
+                                        <span class="span title-2 dynamic" id="c_72">$49.00</span>
+                                    </div>
+
+                                    <p class="card-text label-1 dynamic" id="c_73"> Vegetables, cheeses, ground meats,
+                                        tomato sauce, seasonings and spices </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                    <a href="https://wa.me/p/24697191356641549/917695875930" class="btn btn-primary dynamic" id="c_74">View All Menu</a>
+
+
+                </div>
+            </section>
+
+            <section class="reservation cdis  " id="s_6">
+                <div class="container">
+
+                    <div class="form reservation-form bg-black-10">
+
+                        <form id="bookingForm" class="form-left">
+
+                            <h2 class="headline-1 text-center">Online Booking</h2>
+                            <p class="form-text text-center">Booking request +917695875930 or fill out the order form
+                            </p>
+
+                            <input type="hidden" name="website_id" value="533">
+
+                            <input style="width:100%" type="text" id="name" name="name" placeholder="Your Name"
+                                class="input-field" required>
+
+                            <input style="width:100%" type="tel" id="phone" name="phone" placeholder="Phone Number"
+                                class="input-field" required>
+
+                            <input style="width:100%" type="email" id="email" name="email" placeholder="Your Email"
+                                class="input-field">
+
+                            <textarea id="message" name="message" placeholder="Message" class="input-field"
+                                required></textarea>
+
+                            <p id="formStatus" style="margin-top:10px;"></p>
+
+                            <button type="submit" class="btn btn-secondary">Send</button>
+
+                        </form>
+
+                        <script type="text/javascript"
+                            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                        <script>
+                            (function () {
+                                emailjs.init("37fCuJVtMj4qLBQYb"); // ✅ Your Public Key
+                            })();
+
+                            document.getElementById("bookingForm").addEventListener("submit", function (e) {
+                                e.preventDefault();
+
+                                const formStatus = document.getElementById("formStatus");
+                                formStatus.textContent = "Sending...";
+                                formStatus.style.color = "#aaa";
+
+                                const params = {
+                                    from_name: document.getElementById("name").value,
+                                    contact_number: document.getElementById("phone").value,
+                                    from_email: document.getElementById("email").value,
+                                    message: document.getElementById("message").value
+                                };
+
+                                emailjs.send("service_vyywpsh", "template_spswjln", params)
+                                    .then(() => {
+                                        formStatus.textContent = "✅ Message sent successfully!";
+                                        formStatus.style.color = "#00ff9f";
+
+                                        // ✅ WhatsApp Auto Redirect
+                                        setTimeout(() => {
+                                            window.location.href = `https://wa.me/+917695875930?text=Hi Vijay, I’m interested in your Restaurant Web Design service. Can you share more details?`;
+                                        }, 1000);
+
+                                        document.getElementById("bookingForm").reset();
+                                    })
+                                    .catch((error) => {
+                                        console.error("EmailJS Error:", error);
+                                        formStatus.textContent = "❌ Failed to send message!";
+                                        formStatus.style.color = "#ff4d4d";
+                                    });
+                            });
+                        </script>
+
+
+                        <div class="form-right text-center"
+                            style="background-image: url('https://vq.pe/creator/frontend/theme_11/images/form-pattern.png')">
+
+                            <h2 class="headline-1 text-center dynamic" id="c_76">Contact Us</h2>
+
+                            <p class="contact-label dynamic" id="c_77">Booking Request</p>
+
+                            <a href="tel:+917695875930" class="body-1 contact-number hover-underline dynamic"
+                                id="c_78">917695875930</a>
+
+                            <div class="separator"></div>
+
+                            <p class="contact-label dynamic" id="c_79">Location</p>
+
+                            <address class="body-4 dynamic" id="c_80"> Restaurant St, Delicious City, London 9867, UK
+                            </address>
+
+                            <p class="contact-label dynamic" id="c_81">Timing</p>
+
+                            <p class="body-4 dynamic" id="c_82"> Monday to Sunday: 12.00 am - 12.59pm </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="section features text-center cdis  " aria-label="features" id="s_7">
+                <div class="container">
+
+                    <p class="section-subtitle label-2 dynamic" id="c_83">Why Choose Us</p>
+
+                    <h2 class="headline-1 section-title dynamic" id="c_84">Our Strength</h2>
+
+                    <ul class="grid-list">
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481149-features-icon-1.png"
+                                        width="100" height="80" loading="lazy" alt="icon" id="c_87" class="dynamic">
+                                </div>
+
+                                <h3 class="title-2 card-title dynamic" id="c_85">Hygienic Food</h3>
+
+                                <p class="label-1 card-text dynamic" id="c_86">Lorem Ipsum is simply dummy printing and
+                                    typesetting.</p>
+
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481156-features-icon-2.png"
+                                        width="100" height="80" loading="lazy" alt="icon" id="c_88" class="dynamic">
+                                </div>
+
+                                <h3 class="title-2 card-title dynamic" id="c_89">Fresh Environment</h3>
+
+                                <p class="label-1 card-text dynamic" id="c_90">Lorem Ipsum is simply dummy printing and
+                                    typesetting.</p>
+
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481162-features-icon-3.png"
+                                        width="100" height="80" loading="lazy" alt="icon" id="c_91" class="dynamic">
+                                </div>
+
+                                <h3 class="title-2 card-title dynamic" id="c_92">Skilled Chefs</h3>
+
+                                <p class="label-1 card-text dynamic" id="c_93">Lorem Ipsum is simply dummy printing and
+                                    typesetting.</p>
+
+                            </div>
+                        </li>
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="https://vq.pe/creator/frontend/img/510/1710481170-features-icon-4.png"
+                                        width="100" height="80" loading="lazy" alt="icon" id="c_94" class="dynamic">
+                                </div>
+
+                                <h3 class="title-2 card-title dynamic" id="c_95">Event and Party</h3>
+
+                                <p class="label-1 card-text dynamic" id="c_96">Lorem Ipsum is simply dummy printing and
+                                    typesetting.</p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </section>
+
+            <section class="section event bg-black-10 cdis  " aria-label="event" id="s_8">
+                <div class="container">
+
+                    <p class="section-subtitle label-2 text-center dynamic" id="c_100">Recent Updates</p>
+
+                    <h2 class="section-title headline-1 text-center dynamic" id="c_101">Latest Works</h2>
+                    <div style="text-align:right">
+                        <a href="https://wa.me/c/917695875930" style="margin:20px 0;display: inline-block;" class="btn btn-secondary"> View All</a>
+                    </div>
+                    <ul class="grid-list">
+
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <section id="s_9" class="cdis  ">
+        <div id="c_202" class="dynamic footer section has-bg-image text-center"
+            style="background:url(https://vq.pe/creator/frontend/theme_11/images/footer-bg.jpg);background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+
+                <div class="footer-top grid-list">
+
+                    <div class="footer-brand has-before has-after">
+
+                        <a href="#" class="logo">
+                            <!--- <img src="images/logo_dark.png" alt="Grilli - Home" id="c_114" class="dynamic c_logo"> --->
+                            <h2 class="headline-1 section-title dynamic" id="c_19">Vijay</h2>
+                        </a>
+
+                        <address class="body-4 dynamic" id="c_124"> Restaurant St, Delicious City, London 9876, UK
+                        </address>
+
+                        <a href="mailto:vijayarasantamil5@gmail.com"
+                            class="body-4 contact-link dynamic" id="c_125"><span>vijayarasantamil5@gmail.com</span></a>
+
+                        <a href="tel:+917695875930" class="body-4 contact-link dynamic" id="c_126">Booking Request : 7695875930</a>
+
+                        <p class="body-4 dynamic" id="c_127">Open : 12:00 am - 12:59 pm</p>
+
+                        <div class="wrapper">
+                            <div class="separator"></div>
+                            <div class="separator"></div>
+                            <div class="separator"></div>
+                        </div>
+
+                    </div>
+
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="label-2 footer-link hover-underline">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a href="https://www.facebook.com/" class="label-2 footer-link hover-underline dynamic"
+                                id="c_119">Facebook</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/" class="label-2 footer-link hover-underline dynamic"
+                                id="c_120">Instagram</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.twitter.com/" class="label-2 footer-link hover-underline dynamic"
+                                id="c_121">Twitter</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.youtube.com/" class="label-2 footer-link hover-underline dynamic"
+                                id="c_122">Youtube</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    <div class="editor_notice_div" id="editor_notice"></div>
+    <div id="trumbowyg-editor-static">
+        <div id="trumbowyg-editor" style="display:none;width: 100%;background: #ffffff;">
+            <div id="trumbowyg-demo"></div>
+        </div>
+    </div>
+
+    <div id="editor">
+        <form action="#" method="post">
+            <input type="hidden" name="_token" value="4rEveQ0wae4e3J9upg375oXb3uIFeo1lMwCtfygB">
+            <input type="hidden" name="website_id" value="533">
+            <input type="hidden" name="theme_id" value="11">
+
+
+        </form>
+    </div>
+    <div id="modal_io"></div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- 
+    - custom js link
+  -->
+    <script src="https://vq.pe/creator/frontend/theme_11/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://www.unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://www.unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <script type="module" src="https://vq.pe/creator/frontend/js/ionicons.esm.js"></script>
+  <script src="https://vq.pe/creator/frontend/js/ionicons.js"></script> -->
+    <div style="text-align:center">
+        <div class="c_footer_watermark"><a style="display: inline;font-size: 8px;line-height: 1;" href="#"><!--- <img
+                    style="display: inline;width: 1.5em; vertical-align: middle;margin-bottom:5px; line-height: 1;"
+                    src="" alt="best website builder"></a> ---> <a style="display: inline;line-height: 1;"
+                    href="#"><b>Codes by Vijay</b></a></div>
+    </div>
+
+
+
+    <script src="https://vq.pe/creator/admin/js/cookies.js?v=1702571798"></script>
+    <script src="https://vq.pe/creator/admin/js/form_ajax.js?v=1749222842"></script>
+    <script src="https://vq.pe/creator/frontend/js/main.js?v=1746875192"></script>
+
+    <a href="https://wa.me/+917695875930?text=Hi Vijay, I saw your Restaurant Web Design. Can you share more details about your web designs?" target="_blank" class="chat-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" style="height: 70%; width: 70%;" alt="whatsapp Me">
+    </a>
+
+</body>
+
+</html>
