@@ -600,43 +600,21 @@
                         <form id="bookingForm" class="form-left">
 
                             <h2 class="headline-1 text-center">Online Booking</h2>
-                            <p class="form-text text-center">Booking request +917695875930 or fill out the order form</p>
+                            <p class="form-text text-center">Booking request +917695875930 or fill out the order form
                                 <!-- Paragraph with clickable preview link -->  
-  <a><span onclick="openPreview()" class="text-blue-600 underline cursor-pointer hover:text-blue-800">
-    Click here to preview the message I receive
-  </span>
-</a>
+                              <a href="#" id="previewBtn">Click here to preview the contact message I receive in my mail</a>
+                            </p>
+                            
+                            <!-- Popup Modal -->
+                            <div id="previewModal" class="modal">
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+                            
+                                <h2>Contact Message Preview</h2>
+                                <img src="your-preview-image.jpg" alt="Email Preview" style="width:100%; border-radius:6px;">
+                              </div>
+                            </div>
 
-<!-- 🔥 Popup Modal -->
-<div id="previewModal" 
-     class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-
-  <div class="bg-white p-5 rounded-lg shadow-lg max-w-md w-full relative">
-    
-    <!-- Close Button -->
-    <button onclick="closePreview()" 
-            class="absolute top-2 right-2 text-gray-700 text-xl font-bold hover:text-black">
-      ×
-    </button>
-
-    <!-- Preview Image -->
-    <img src="./images/mail-preview.png" 
-         alt="Mail preview"
-         class="w-full rounded-md">
-
-  </div>
-</div>
-
-<!-- Popup Scripts -->
-<script>
-  function openPreview() {
-    document.getElementById("previewModal").classList.remove("hidden");
-  }
-
-  function closePreview() {
-    document.getElementById("previewModal").classList.add("hidden");
-  }
-</script>
 
 
                             <input type="hidden" name="website_id" value="533">
